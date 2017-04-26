@@ -1,2 +1,5 @@
 /build/
 /vendor/
+
+*.bundle
+*.lock
