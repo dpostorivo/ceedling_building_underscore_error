@@ -1,0 +1,5 @@
+source "https://rubygems.org"
+
+gem "ceedling", "~>0.25.0"
+
+gemspec :path=>"../"

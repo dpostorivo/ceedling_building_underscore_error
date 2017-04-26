@@ -1,0 +1,23 @@
+# .travis.yml
+language: ruby c
+
+os:
+  - osx
+  - linux
+
+rvm:
+  - 2.0
+  - 2.1
+  - 2.2
+  - 2.3
+  - 2.4
+
+gemfile:
+  - gemfiles/ceedling27.gemfile
+  - gemfiles/ceedling25.gemfile
+  - gemfiles/ceedling24.gemfile
+  - gemfiles/ceedling23.gemfile
+  - gemfiles/ceedling22.gemfile
+script:
+  - ceedling new .
+  - ceedling test:all
