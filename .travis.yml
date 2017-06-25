@@ -6,13 +6,12 @@ os:
   - linux
 
 rvm:
-  - 2.0
   - 2.1
   - 2.2
   - 2.3.4
-  - 2.4.1
 
 gemfile:
+  - gemfiles/ceedling28.gemfile
   - gemfiles/ceedling27.gemfile
   - gemfiles/ceedling25.gemfile
   - gemfiles/ceedling24.gemfile
